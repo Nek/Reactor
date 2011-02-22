@@ -1,5 +1,5 @@
 package {
-import com.nikdudnik.reactor.com.nikdudnik.reactor.internal.Observable;
+import com.nikdudnik.reactor.Observable;
 import com.nikdudnik.reactor.observableFromEvent;
 
 import flash.display.Graphics;

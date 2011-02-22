@@ -4,7 +4,7 @@
  * Time: 03:03
  */
 package com.nikdudnik.reactor.com.nikdudnik.reactor.internal{
-public class ZippingObservable extends ObservableBase {
+public class ZippingObservable extends BaseObservable {
 	private var leftValues:Array = [];
 	private var rightValues:Array = [];
 	private var zip:Function;

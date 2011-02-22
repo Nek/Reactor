@@ -1,6 +1,5 @@
 package {
 import com.nikdudnik.reactor.Observable;
-import com.nikdudnik.reactor.observableFromEvent;
 
 import flash.display.Graphics;
 import flash.display.Sprite;
@@ -8,7 +7,7 @@ import flash.events.MouseEvent;
 
 public class SimpleDemo extends Sprite {
 	public function SimpleDemo() {
-		var mouseMove:Observable = observableFromEvent(stage, MouseEvent.MOUSE_MOVE);
+		var mouseMove:Observable = Observable.fromEvent(stage, MouseEvent.MOUSE_MOVE);
 		mouseMove
 			.skip(1)
 			.zip(mouseMove, function(left:MouseEvent, right:MouseEvent):Object {

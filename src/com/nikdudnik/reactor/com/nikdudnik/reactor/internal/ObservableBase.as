@@ -4,9 +4,6 @@
  * Time: 00:15
  */
 package com.nikdudnik.reactor.com.nikdudnik.reactor.internal{
-import com.nikdudnik.reactor.com.nikdudnik.reactor.internal.IObservable;
-import com.nikdudnik.reactor.com.nikdudnik.reactor.internal.IObserver;
-
 import mx.collections.ArrayCollection;
 
 public class ObservableBase implements IObservable, IObserver {

@@ -4,8 +4,6 @@
  * Time: 04:05
  */
 package com.nikdudnik.reactor.com.nikdudnik.reactor.internal{
-import com.nikdudnik.reactor.com.nikdudnik.reactor.internal.IObservable;
-
 public class Observable {
 	private var _o:IObservable;
 	public function Observable(observable:IObservable) {

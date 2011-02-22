@@ -4,9 +4,6 @@
  * Time: 02:59
  */
 package com.nikdudnik.reactor.com.nikdudnik.reactor.internal{
-import com.nikdudnik.reactor.com.nikdudnik.reactor.internal.IObservable;
-import com.nikdudnik.reactor.com.nikdudnik.reactor.internal.ObservableBase;
-
 public class SkippingObservable extends ObservableBase {
 	private var skipCount:uint;
 	private var events:Array = [];

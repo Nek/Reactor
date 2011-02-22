@@ -8,7 +8,7 @@ import com.nikdudnik.reactor.com.nikdudnik.reactor.internal.*;
 
 import flash.events.IEventDispatcher;
 
-public class Observable {
+public class Observable implements IObservable {
 	private var _o:IObservable;
 	public function Observable(observable:IObservable) {
 		_o = observable;
